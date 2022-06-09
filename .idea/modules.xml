@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/FileReaderWriter.iml" filepath="$PROJECT_DIR$/.idea/FileReaderWriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileReaderWriter/fileReaderWriter.iml" filepath="$PROJECT_DIR$/fileReaderWriter/fileReaderWriter.iml" />
+    </modules>
+  </component>
+</project>

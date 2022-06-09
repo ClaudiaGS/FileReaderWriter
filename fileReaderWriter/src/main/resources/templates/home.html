@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>home</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" th:href="@{/css/Header-Blue.css}">
+    <link rel="stylesheet" href="@{/css/styles.css}">
+</head>
+
+<body style="background-color: rgb(201,212,218);">
+<h1 style="margin-top: 80px;font-size: 20px;width: 80%;margin-left: 10%;">Add file:</h1>
+<div class="table-responsive" style="width: 80%;margin-left: 10%;background-color: #115382;">
+
+    <form action="#" th:action="@{/file/validate}" th:object="${file}" method="post" class="form-horizontal"
+          style="width: 100%">
+
+        <input type="file" id="file" name="file"  accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+        <button class="btn btn-primary" type="submit"><span style="color:white">Choose file</span></button>-->
+    </form>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
